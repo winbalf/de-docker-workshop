@@ -42,3 +42,6 @@ docker run -it --rm \
 ### pgcli
 uv add --dev pgcli
 uv run pgcli -h localhost -p 55432 -u root -d ny_taxi
+
+### convert jupyter notebook to script
+uv run jupyter nbconvert --to=script notebook.ipynb
